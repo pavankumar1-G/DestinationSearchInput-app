@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.bg-app-container {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+}
+.DestinationSearch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+}
+.heading {
+  font-size: 35px;
+  text-align: center;
+  color: #252627;
+  font-weight: 600;
+}
+.searchbar-and-icon-container {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  height: 35px;
+  width: 220px;
+}
+.search-bar {
+  color: #000000;
+  font-family: Open Sans;
+  height: 26px;
+  width: 200px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+}
+.destination-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 45px;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 45px;
+  }
+  .searchbar-and-icon-container {
+    display: flex;
+    background-color: #f1f5f9;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    height: 60px;
+    width: 400px;
+  }
+  .search-bar {
+    height: 56px;
+    width: 400px;
+    font-size: 20px;
+  }
+  .search-icon {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+  }
+}
